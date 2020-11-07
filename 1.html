@@ -3,10 +3,17 @@
     <head>
         <meta charset="uft-8">
         <tilte>첫번째 HTML 문서</tilte>
+        <style>
+            #wrapper{
+                width: 800;
+                margin-right: auto;
+                margin-left: auto;
+            }
+        </style>
     </head>
     <body>
         <header>
-            <h1>헤더를 입력하였음</h1>
+            <h2>헤더를 입력하였음</h2>
             <nav>
                 <ul>
                     <li>헤더의 네비게이션1</li>
@@ -15,12 +22,20 @@
             </nav>
 
         </header>
-        <h1>이것은 제목</h1>
-        <p><i>>안녕하세요</i></p>
-        <img src="screenshot.png">
-        <p>과연 얼마나 많은 글을 써야 줄바꿈이 일어날 것인가? <b>HTML과 CSS</b>로 새사이트 만들어 보기 연습을 하는 것으로 하자 이정도면 깃허브 사이트에서 보이지 
-            안을만한 정도인가 의식의 흐름은 점점 가속화되는 우주의 팽창속에서 정보를 간직하는 블랙홀이 정보를 날려먹는 
-        </p>
-        <p><a href="https://github.com/dhzjfhtm">내 깃허브</a></p>
+        <div id="wrapper">
+            <section>
+                <h3>이것은 제목</h3>
+                <article>
+                    <p><i>>안녕하세요</i></p>
+                    <img src="screenshot.png">
+                    <p>과연 얼마나 많은 글을 써야 줄바꿈이 일어날 것인가? <b>HTML과 CSS</b>로 새사이트 만들어 보기 연습을 하는 것으로 하자 이정도면 깃허브 사이트에서 보이지 
+                        안을만한 정도인가 의식의 흐름은 점점 가속화되는 우주의 팽창속에서 정보를 간직하는 블랙홀이 정보를 날려먹는 
+                    </p>
+                    <p><a href="https://github.com/dhzjfhtm">내 깃허브</a></p>
+                </article>
+            </section>
+            <aside> aside 부분 </aside>
+            <footer><p>©2020</p></footer>
+        </div>
     </body>
 </html>
