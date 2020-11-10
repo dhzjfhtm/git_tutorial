@@ -7,11 +7,11 @@
     float: right;
     width: auto;
     border: 1px;
-    border-radius: 2rem;
+    border-radius: 8px;
     border-color: bisque
 
 }
 .knowDiv{
-    border: 1rem;
+    border: 2px;
     border-color: bisque
 }
