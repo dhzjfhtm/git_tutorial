@@ -8,5 +8,10 @@
     width: auto;
     border: 1px;
     border-radius: 2rem;
+    border-color: bisque
 
+}
+.knowDiv{
+    border: 1rem;
+    border-color: bisque
 }
