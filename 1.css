@@ -1,17 +1,17 @@
 .left{
     float: left;
-    border: 1px;
+    border: 10px;
     border-color: chocolate;
 }
 .right{
     float: right;
     width: auto;
-    border: 1px;
+    border: 10px;
     border-radius: 8px;
     border-color: black;
 
 }
 .knowDiv{
-    border: 2px;
+    border: 10px;
     border-color:black;
 }
