@@ -12,7 +12,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("src/museum-of-science-and-industry-5119410_1920.jpg");
+  background-image: url("./museum-of-science-and-industry-5119410_1920.jpg");
 }
 .leftSidebar {
   position: fixed;
