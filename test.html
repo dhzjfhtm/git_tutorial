@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>test site</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <section id='example1'>
+            <div>
+                <template id="test-template">
+                    <tr>
+                        <input type="checkbox" />
+                        <td>1번</td>
+                        <td>2번</td>
+                        <td>3번</td>
+                        <td>4번</td>
+                        <td>5번</td>
+                    </tr>
+                </template>
+                <input type="button" value="changeNode" id='change-button'/>
+                <input type="button" value="deleteNodes" id='delete-button'/>
+            <table>
+                <thead>
+                    <tr>
+                        <td><input type="checkbox" name='in-list' id='all-check'/></td>
+                        <td>1-1번</td>
+                        <td>1-2번</td>
+                        <td>1-3번</td>
+                        <td>1-4번</td>
+                        <td>1-5번</td>
+                        <td><input type="checkbox" name='in-list' id='all-check'/></td>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="checkbox" name='in-list'/></td>
+                        <td>2-1번</td>
+                        <td>2-2번</td>
+                        <td>2-3번</td>
+                        <td>2-4번</td>
+                        <td>2-5번</td>
+                        <td><input type='button' value='delete' class='delete-each'/></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name='in-list'/></td>
+                        <td>3-1번</td>
+                        <td>3-2번</td>
+                        <td>3-3번</td>
+                        <td>3-4번</td>
+                        <td>3-5번</td>
+                        <td><input type='button' value='delete' class='delete-each'/></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name='in-list'/></td>
+                        <td>4-1번</td>
+                        <td>4-2번</td>
+                        <td>4-3번</td>
+                        <td>4-4번</td>
+                        <td>4-5번</td>
+                        <td><input type='button' value='delete' class='delete-each'/></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name='in-list'/></td>
+                        <td>5-1번</td>
+                        <td>5-2번</td>
+                        <td>5-3번</td>
+                        <td>5-4번</td>
+                        <td>5-5번</td>
+                        <td><input type='button' value='delete' class='delete-each'/></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        </section>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <script src="test.js"></script>
+    </body>
+</html>
