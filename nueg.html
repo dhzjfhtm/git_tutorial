@@ -11,39 +11,26 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="nueg.css">
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     </head>
     <body>
         <div id='wrapper'>
-            <div id="up-bar">
+            <div id="up-bar" >
                 <span>nueg.com</span>
             </div>
             <div id=content>
                 <div id='main'>
-                    <section>
+                    <section id='first-section'>
                         <div class='section-divider'>
                         <div class="title">
-                            <p><b>></b>new community</p>
+                            <a href="nuegBoard.html" id="first-board">
+                                <p class='title-text'><b>></b>new community</p>
+                            </a>
                             <p>icon</p>
                         </div>
                         <ol>
-                            <li>
-                                <div class="content">
-                                    <p>게시물 1의 제목이다.</p>
-                                    <div class="like-comment">
-                                        <p>댓글 3</p>
-                                        <p>좋아요 5</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="content">
-                                    <p>게시물 2의 제목이다.</p>
-                                    <div class="like-comment">
-                                        <p>댓글 6</p>
-                                        <p>좋아요 3</p>
-                                    </div>
-                                </div>
-                            </li>
+                            <li>게시물 1</li>
+                            <li>게시물 2</li>
                             <li>게시물 3</li>
                             <li>게시물 4</li>
                             <li>게시물 5</li>
@@ -51,7 +38,7 @@
                     </div>
                     <div class="section-divider">
                         <div class="title">
-                            <p><b>></b>new community</p>
+                            <p class='title-text'><b>></b>new community</p>
                             <p>icon</p>
                         </div>
                         <ol>
@@ -82,7 +69,7 @@
                     <section>
                         <div class='section-divider'>
                         <div class="title">
-                            <p><b>></b>new community</p>
+                            <p class='title-text'><b>></b>new community</p>
                             <p>icon</p>
                         </div>
                         <ol>
@@ -111,7 +98,7 @@
                     </div>
                     <div class="section-divider">
                         <div class="title">
-                            <p><b>></b>new community</p>
+                            <p class='title-text'><b>></b>new community</p>
                             <p>icon</p>
                         </div>
                         <ol>
@@ -151,15 +138,28 @@
                         </div>
                         <div>
                             <input type='button'value='login'/>
+                            <input type='button'value='sign in'id='sign-in'/>
+                            <input type='button'value='one side'id='one-side'/>
+                        </div>
+                        <div id="CRUD">
+                            <a href="nueg_write.html"><input type="button" class="create" value="create"></a>
+                            <input type="button" class="read" value="read">
+                            <input type="button" class="update" value="update">
+                            <input type="button" class="delete" value='delete'>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div>
+                <footer>
+                    copyright@2020
+                </footer>
             </div>
         </div>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         
-        <script src="" async defer></script>
+        <script src="nueg.js" async defer></script>
     </body>
 </html>

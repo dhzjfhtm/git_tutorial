@@ -1,0 +1,15 @@
+#wrapper{
+    max-width: 1000px;
+  margin: 0 auto;
+}
+#up-bar{
+    color: burlywood;
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+#control-bar{
+    display: inline;
+}
